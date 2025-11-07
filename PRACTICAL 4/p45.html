@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Prectical 4.5 </title>
+</head>
+<body bgcolor="#E3DAC9">
+<h1> Prectical 4.5 </h1>
+    <form action="" method="post">
+        <table border="0" cellpadding="5">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" placeholder="it should contain @"></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td><input type="number" name="mobile" placeholder="only 10 digits are allowed" maxlength="10" ></td>
+            </tr>
+            <tr>
+                <th colspan="2" align="left">Gender:
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </th>
+            </tr>
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td>Area PIN:</td>
+                <td><input type="text" name="pin"></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td>
+                    <select name="qualification">
+                        <option value=""disabled selected>Select Qualification</option>
+                        <option value="highschool">High School</option>
+                        <option value="bachelor">Bachelor's Degree</option>
+                        <option value="master">Master's Degree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Specialization:</td>
+            </tr>
+            <tr>
+                <th colspan="2" align="left">
+                    <input type="checkbox" name="specialization[]" value="computer_science"> Computer Science<br>
+                    <input type="checkbox" name="specialization[]" value="information_technology"> Information Technology<br>
+                    <input type="checkbox" name="specialization[]" value="computer_architecture"> Computer Architecture<br>
+                    <input type="checkbox" name="specialization[]" value="tele_communication"> Tele Communication<br>
+                </th>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <th align="left"><input type="submit" value="Registered"></th>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
