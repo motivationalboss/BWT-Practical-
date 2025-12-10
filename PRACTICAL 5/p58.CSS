@@ -1,0 +1,21 @@
+ol{
+            background-color:rgb(244, 229, 219);
+            padding: 9px;
+        }
+
+
+        ul{
+            background-color:aqua;
+            padding: 9px;
+        }
+
+
+        li{
+            background-color: yellow;
+        }
+
+
+        ol li{
+            list-style-image: url(wrench.png);
+            list-style-position: inside;
+        }
