@@ -1,0 +1,25 @@
+Table{
+    border-collapse: collapse;
+    border-color: blue;
+    caption-side: bottom;
+    color: darkgreen;
+}
+div{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+hr{
+    background-color: hotpink;
+    width: auto;
+    height: 3px;
+}
+th.one {
+    background-color: purple;
+}
+td.two {
+    background-color: red;
+}
+td.three {
+    background-color: rgb(128, 158, 44);
+}
